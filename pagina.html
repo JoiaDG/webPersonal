@@ -13,22 +13,28 @@
 </head>
 <body>
         <div id="Fija">    
-        <header>Joiarib</header>
-    <nav>
-        <ul>
-            <li id="opc" onclick='document.location.href = "#inicio"'>Inicio</a></li>
-            <li id="opc" onclick='document.location.href = "#final"'> Acerca de mi</li>
-            <li id="opc" onclick='document.location.href = "#final"'> Final</li>
-        </ul>
-    </nav>
+        <header>
+            <a id="rd" href="#">
+                <h1 class="home">
+                    joiaribdiaz
+                </h1>
+            </a>
+            <ul class="nav">
+                <li id="opc" onclick='document.location.href = "#"'>Inicio</a></li>
+                <li id="opc" onclick='document.location.href = "#about"'> Acerca de mi</li>
+                <li id="opc" onclick='document.location.href = "#carrera"'>Carrera Académica</li>
+            </ul>
+        </header>
     </div>
     <div id="Todo">
+        <div class="izquierda">
+        <!--Articulo-->
         <article>
                 <div class="tituloimg">
                     <img id="yo" src="assets/yo.jgp.jpg">
                 </div>
                 <p class="titulo">Sobre mi</p>
-                <div class="popo"><p>Me llamo José Joiarib Díaz García, nacido en la ciudad de <i>Colima, México</i>
+                <div class="contenido"><p>Me llamo José Joiarib Díaz García, nacido en la ciudad de <i>Colima, México</i>
                 el 12 de Marzo de 1999, mis padres son José Paulino Diaz Martínez y María de Jesús
                 García Fonseca, Mi nombre José significa Dios es mi Pacto y mi nombre Joiarib, significa 
                 Dios defiende. Venido de una familia "estable" al año de mi nacimiento, mi familia 
@@ -37,13 +43,13 @@
                 y por consiguiente yo también lo soy, pero no porque ellos lo sean, de hecho un tiempo
                 yo no creía.</p></div>
         </article>
-
+        <!--Articulo-->
         <article>
                 <div class="tituloimg">
                     <img id="yo" src="assets/foto.jpg">
                 </div>
                 <p class="titulo">¿Qué hago?</p>
-                <div class="popo"><p>Actualmente, trabajo en MultiOfertas, una empresa
+                <div class="contenido"><p>Actualmente, trabajo en MultiOfertas, una empresa
                     de Publicidad, ejerzo el cargo de Diseñador Freelance. Otra de las
                     cosas de "tiempo completo" que llevo a cabo es tocar y cantar en
                     la iglesia <i>Grupo Amor</i>, los sábados en la iglesia de Jóvenes,
@@ -52,53 +58,96 @@
                     Photoshop, Premiere Pro, conozco algo básico de After Effects y Muy poco de Illustrator
                     Fui youtuber de videojuegos en su tiempo, pero eso me estaba llevando
                     a la ruina en lo social y lo escolar, así que decidi dejarlo, ahora subo
-                    videos ocasionalmente pero sobre lo que hacemos en la iglesia de <a href="https://www.facebook.com/jitmx">Jovenes</a>.
+                    videos ocasionalmente pero sobre lo que hacemos en la iglesia de <a id="a" href="https://www.facebook.com/jitmx">Jovenes</a>.
                 </p></div>
         </article>
+        </div>    
+    <aside>
+        <div class="aside">
+                <p class="titulo2">Links de contacto</p>
+                <p class="facebook" onclick='document.location.href = "http://www.facebook.com/joiaribdiaz"'><img src="assets/facebook.png"/ width="10%">acebook</p>
+                <p class="twitter" onclick='document.location.href = "http://www.twitter.com/joiadg"'><img src="assets/twitter.png"/ width="10%">Twitter</p>
+                <p class="youtube" onclick='document.location.href = "http://www.youtube.com/c/joiadiaz"'><img src="assets/youtube.png"/ width="10%">Youtube</p>
+                
+            </div>        
+    </aside>
+    <!--Segundo div para hacer salto de línea-->
+    <div class="abajo"
+    id="about">
+    <!--Articulo-->        
+    <article id="about">
+            <div class="tituloimg">
+                <img id="yo" src="assets/amigos.jpg">
+            </div>
+            <p class="titulo" id="about">Circulo Social</p>
+            <div class="contenido">
+                <p>Por mucho tiempo conté con muchos amigos cibernéticos, ya sabes
+                    esos con los que la pasas horas jugando videojugos, pero tenía poca
+                    interacción social con personas de carne y hueso, pero de un tiempo para acá
+                    he tenido la oportunidad de conocer a mis mejores amigos que son <i>Rodrigo, Arturo,
+                    Jorge, Melvin, Cynthia,</i>,, Mike, Jireh (Que es mi primo), Aleksei, Omar, Adonay, Lucía, Gonzalo,
+                    Michelle, Wendy, Katy, Reyna y varios más de mi iglesia de Jóvenes
+                </p>
+            </div>
+    </article>
+    <!--Articulo-->
+    <article>
+            <div class="tituloimg">
+                <iframe width="600" height="340" src="https://www.youtube.com/embed/Ae_tNRaOBO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <!--<p class="titulo"></p>-->
+            <div class="contenido2">
+                <p>Los proyectos que mas han impactado mi carrera son
+                    <ul>
+                        <li>Video: "El trapiche"</li>
+                        Este video lo hice dentro de MultiOfertas, en el aprendí muchas cosas sobre
+                        grabación, edición, y conocí muchos presets de Premiere Pro.
+                        <li>Edición 420 de MultiOfertas</li>
+                        A esta edición le tengo mucho cariño ya que fue en la primera que trabajé
+                        <li>Video Backstage primer campamento (insertado arriba)</li>
+                    </ul>
+                </p>
+            </div>
+    </article>
+    <!--Articulo-->
+    </div>
+
+    <div class="abajo">
+        <!--Articulo-->
         <article>
                 <div class="tituloimg">
-                    <img id="yo" src="assets/yo.jgp.jpg">
+                    <img id="yo" src="assets/programacion.jpg">
                 </div>
-                <p class="titulo">Sobre mi</p>
-                <div class="popo"><p>Me llamo José Joiarib Díaz García, nacido en la ciudad de <i>Colima, México</i>
-                el 12 de Marzo de 1999, mis padres son José Paulino Diaz Martínez y María de Jesús
-                García Fonseca, Mi nombre José significa Dios es mi Pacto y mi nombre Joiarib, significa 
-                Dios defiende. Venido de una familia "estable" al año de mi nacimiento, mi familia 
-                se regocijó con el nacimiento de mi hermana Zuriel Elizabeth, siendo la segunda y última 
-                hija de mis padres. Desde su juventud, mis padres han sido y son Cristianos
-                y por consiguiente yo también lo soy, pero no porque ellos lo sean, de hecho un tiempo
-                yo no creía.</p></div>
+                <p class="titulo">Lenguajes de programación</p>
+                <div class="contenido">
+                    <p>Tengo experiencia en los siguientes lenguajes:
+                        <ul>
+                            <li>Java</li>
+                            <li>Javascript</li>
+                            <li>C#</li>
+                            <li>PhP</li>
+                            <li>SQL</li>
+                            <li>Html + Css (aunque no sea programación)</li>
+                        </ul>
+                    </p></div>
         </article>
+        <!--Articulo-->
         <article>
                 <div class="tituloimg">
-                    <img id="yo" src="assets/yo.jgp.jpg">
+                    <img id="yo" src="assets/foto.jpg">
                 </div>
-                <p class="titulo">Sobre mi</p>
-                <div class="popo"><p>Me llamo José Joiarib Díaz García, nacido en la ciudad de <i>Colima, México</i>
-                el 12 de Marzo de 1999, mis padres son José Paulino Diaz Martínez y María de Jesús
-                García Fonseca, Mi nombre José significa Dios es mi Pacto y mi nombre Joiarib, significa 
-                Dios defiende. Venido de una familia "estable" al año de mi nacimiento, mi familia 
-                se regocijó con el nacimiento de mi hermana Zuriel Elizabeth, siendo la segunda y última 
-                hija de mis padres. Desde su juventud, mis padres han sido y son Cristianos
-                y por consiguiente yo también lo soy, pero no porque ellos lo sean, de hecho un tiempo
-                yo no creía.</p></div>
+                <p class="titulo" id="carrera">Carrera Académica</p>
+                <div class="contenido">
+                    <p>Desde mi infancia he vivido y me he desarrollado en Colima, iniciando
+                        por el jardín de niños Ma. Rosario Ortiz Silva, continué mis estudios de
+                        educación primaria en la Escuela Enrique Andrade.
+                        Mi educación Secundaria la curse en la escuela Manuel Álvarez, seguido de ahí
+                        estudié mi carrera Técnico Analísta Programador en el Bachillerato #16 de la U. de C.
+                        Actualmente estoy estudiando en la Facultad de Telemática de la Universidad de Colima, 
+                        la carrera de Ingeniería en Software.
+                </p></div>
         </article>
-        <article>
-                <div class="tituloimg">
-                    <img id="yo" src="assets/yo.jgp.jpg">
-                </div>
-                <p class="titulo">Sobre mi</p>
-                <div class="popo"><p>Me llamo José Joiarib Díaz García, nacido en la ciudad de <i>Colima, México</i>
-                el 12 de Marzo de 1999, mis padres son José Paulino Diaz Martínez y María de Jesús
-                García Fonseca, Mi nombre José significa Dios es mi Pacto y mi nombre Joiarib, significa 
-                Dios defiende. Venido de una familia "estable" al año de mi nacimiento, mi familia 
-                se regocijó con el nacimiento de mi hermana Zuriel Elizabeth, siendo la segunda y última 
-                hija de mis padres. Desde su juventud, mis padres han sido y son Cristianos
-                y por consiguiente yo también lo soy, pero no porque ellos lo sean, de hecho un tiempo
-                yo no creía.</p></div>
-        </article>
-    
-    <aside>Aside</aside>
+        </div> 
     <footer id="final">Todos los derechos reservados &copy 2019</footer>
 
     </div>
