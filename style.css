@@ -268,3 +268,31 @@ footer{
 #rd{
     color:rgb(189, 81, 81);
 }
+#input{
+    display:inline-block;
+    padding:10px;
+    border:0 none;
+    border-radius:2px;
+    
+}
+.boton{
+    color:white;
+    background:rgb(201, 68, 59);
+    padding:10px;
+    border:0 none;
+    border-radius:2px;
+}
+.boton:hover{
+    box-shadow: inset 0px 0px 1px 3px white;
+}
+.boton:active{
+    background:rgb(255, 93, 93);
+}
+
+#form{
+    display:inline-block;
+}
+#tfooter{
+    display:inline-block;
+    margin-right:10%;
+}
